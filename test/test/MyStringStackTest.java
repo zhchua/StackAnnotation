@@ -34,7 +34,8 @@ public class MyStringStackTest extends TestCase {
 		//useless line
 		String o1 = null;  
 		MyStringStack stack = new MyStringStack();
-		//stack.push (s1);
+		System.out.print("PRINT ME");
+		stack.push (s1);
 		assertTrue (stack.isEmpty());
         stack.push (s1);
         stack.push (s2);
